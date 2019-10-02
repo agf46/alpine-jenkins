@@ -2,6 +2,6 @@ version: 1
 
 update_configs:
   - package_manager: "docker"
-    directory: " /common"
+    directory: "/"
     update_schedule: "daily"
     
