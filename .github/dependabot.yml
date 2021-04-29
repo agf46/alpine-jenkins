@@ -1,0 +1,23 @@
+version: 2
+updates:
+- package-ecosystem: docker
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: jenkins/jenkins
+    versions:
+    - 2.277.pre.alpine
+    - 2.278.pre.alpine
+    - 2.279.pre.alpine
+    - 2.280.pre.alpine
+    - 2.281.pre.alpine
+    - 2.282.pre.alpine
+    - 2.283.pre.alpine
+    - 2.284.pre.alpine
+    - 2.285.pre.alpine
+    - 2.286.pre.alpine
+    - 2.287.pre.alpine
+    - 2.288.pre.alpine
+    - 2.289.pre.alpine
